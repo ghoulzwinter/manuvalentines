@@ -34,6 +34,9 @@ body {
 .header-rotator img { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:140px; height:auto; opacity:0; transition:opacity 0.6s ease; pointer-events:none }
 .header-rotator img.active { opacity:1; pointer-events:auto }
 
+/* site audio styling */
+.site-audio { margin-left: 12px; vertical-align: middle; width: 220px; max-width: 40vw; }
+
 /* center stage with flowers on both sides */
 .stage { display:flex; align-items:center; gap: 2.5rem; width: 100%; max-width: 1100px; padding: 6rem 1rem 2rem; }
 .flowers { width: 260px; height: 420px; position: relative; }
